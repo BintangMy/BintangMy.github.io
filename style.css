@@ -77,7 +77,7 @@ section{
 
 .btn{
   color: #fff;
-  background: #3a6cf4;
+  background: #235bf6;
   font-size: 1em;
   font-weight: 600;
   display: inline-block;
@@ -497,6 +497,8 @@ body{
   font-weight: 500;
 }
 
+/*******Contact Form***/
+
 .contact-form{
   background: #fff;
   max-width: 600px;
@@ -520,36 +522,6 @@ body{
   margin-bottom: 20px;
 }
 
-.contact-form .input-box input,
-.contact-form .input-box textarea{
-  color: #111;
-  width: 100%;
-  padding: 10px;
-  font-size: 1em;
-  font-weight: 400;
-  outline: none;
-  border: 1px solid #111;
-  border-radius: 5px;
-  resize: none;
-}
-
-.contact-form .input-box .send-btn{
-  color: #fff;
-  background: #000000;
-  display: inline-block;
-  font-size: 1.1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  width: 100%;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.contact-form .input-box .send-btn:hover{
-  background: #000000;
-}
 
 .footer{
   background: #16181c;
@@ -576,6 +548,7 @@ body{
 .nama a p{
     color: #000000;
 }
+
 @media (max-width: 1040px){
   header{
     padding: 12px 20px;
@@ -724,4 +697,3 @@ body{
   transform: translateY(0);
   opacity: 1;
 }
-      
